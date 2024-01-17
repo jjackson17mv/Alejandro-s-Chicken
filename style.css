@@ -1,50 +1,102 @@
-html{
-    height: 100%;
-    font-family: cursive,sans-serif;
-    background-image: url('./assets/images/orange-fade-backgroun.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
+html {
+  height: 100%;
+  font-family: cursive, sans-serif;
+  background-image: url("./assets/images/orange-fade-backgroun.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.title-color {
+  color: gold;
+  font-size: 70px;
+  text-align: center;
+}
 
+.logo {
+  height: 200px;
+  width: 300px;
+  position: relative;
+  border-radius: 900%;
+  left: 40%;
+  bottom: 75px;
 }
-.title-color{
-color: gold;
-font-size: 70px;
-text-align: center;
+.name-color {
+  color: gold;
+  font-size: 70px;
+  position: relative;
+  text-align: center;
+  top: 10px;
+  left: 5%;
 }
-
-.logo{
-    height: 200px;
-    width: 300px;
-    position: relative;
-    border-radius: 900%;
-    left: 40%;
-    bottom: 75px;
-
-    
+.about-color {
+  position: relative;
+  color: gold;
+  font-size: 50px;
+  top: 100px;
 }
-.name-color{
-    color: gold;
-    font-size: 70px;
-    position: relative;
-    text-align: center;
-    top: 10px;
-    left: 5%;
-    
-
-}
-.about-color{
-    position: relative;
-    color: gold;
-    font-size: 50px;
-    top: 100px;
-    
-}
-/*.menu-color{
+/*
+.menu-color{
     position: relative;
     color: gold;
     font-size: 50px;
     top: 100px;
     left: 60%
 
-}*/
+}
+*/
 
+/*Menu CSS*/
+.title-menu {
+  color: gold;
+  left: 50%;
+}
+.menu-flag {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  position: relative;
+  left: 48%;
+}
+.menu-logo {
+  top: 4px;
+  position: relative;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  left: 48%;
+}
+.menu-text {
+  position: relative;
+  color: black;
+  font-weight: 500px;
+}
+.card-text {
+  color:black;
+  
+}
+.card-title {
+  color: gold;
+}
+.right-card {
+  flex: right;
+}
+.left-card {
+  float: left;
+}
+
+/*.h1{
+    font-size: 3.5rem;
+    text-align: center;
+}
+.card{
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+.card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+*/
